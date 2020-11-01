@@ -1,18 +1,12 @@
-import Head from 'next/head'
+import { Container } from '../styles/pages/Home'
 
 export default function Home() {
-  const abab = 'dale'
-
   return (
-    <div >
-      <Head>
-        <title>Conecta Talentos</title>
-      </Head>
+    <Container>
 
-      <main >
-        <h1>Hello dale</h1>
-      </main>
+      <h1>ReactJS Structure</h1>
+      <p>A reactJS + Next.JS structure made by Pedro Henrique.</p>
 
-    </div>
+    </Container>
   )
 }
